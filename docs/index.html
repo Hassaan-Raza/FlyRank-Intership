@@ -393,7 +393,7 @@
       <p>The fairer comparison is ROC AUC and Average Precision, computed across the full ranking rather than the rule's self-selected top picks. Both the Random Forest and Logistic Regression models land modestly, not dramatically, above chance (0.50) on the honest grouped split &mdash; a real but unglamorous result.</p>
       <p>A more useful test: of the model's top 50 ranked candidates, <b>20 fell entirely outside the baseline rule's scoring gate</b> &mdash; pages the fixed rule structurally cannot flag at all. Of those 20, 1 was a genuine decline: a real, modest signal that the model finds candidates the baseline is blind to, at a lower hit rate than the baseline's narrow picks.</p>
       <div class="figure">
-        <img src="work/figures/feature_importance.png" alt="Bar chart of top 10 Random Forest feature importances">
+        <img src="figures/feature_importance.png" alt="Bar chart of top 10 Random Forest feature importances">
         <div class="cap">FIG. 1 &mdash; Top 10 feature importances, Random Forest. Average position and impressions dominate, consistent with the baseline's own logic.</div>
       </div>
     </div>
